@@ -1,0 +1,32 @@
+INFO 2026-03-02 00:10:48,137 views 10729 125531859187392 Password reset request for email: smartlaundry2026@gmail.com
+WARNING 2026-03-02 00:10:48,750 views 10729 125531859187392 Password reset request for non-existent email: smartlaundry2026@gmail.com
+INFO 2026-03-02 00:11:28,020 views 10729 125531859187392 Password reset request for email: smartlaundry2026@gmail.com
+INFO 2026-03-02 00:11:28,078 views 10729 125531859187392 Generated temporary password for user 15
+INFO 2026-03-02 00:11:28,079 views 10729 125531859187392 Attempt 1/2 to send reset email to smartlaundry2026@gmail.com
+ERROR 2026-03-02 00:11:31,735 views 10729 125531859187392 Auth error for smartlaundry2026@gmail.com: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-2ae3e4e34e6sm52936645ad.30 - gsmtp')
+INFO 2026-03-02 00:11:32,558 views 10729 125531859187392 Password updated for user 15
+INFO 2026-03-02 00:14:00,265 views 13405 136573291067072 Password reset request for email: smartlaundry2026@gmail.com
+INFO 2026-03-02 00:14:00,302 views 13405 136573291067072 Generated temporary password for user 15
+INFO 2026-03-02 00:14:00,302 views 13405 136573291067072 Attempt 1/2 to send reset email to smartlaundry2026@gmail.com
+INFO 2026-03-02 00:14:04,571 views 13405 136573291067072 Password reset email sent successfully to smartlaundry2026@gmail.com
+INFO 2026-03-02 00:14:05,449 views 13405 136573291067072 Password updated for user 15
+INFO 2026-03-02 00:54:25,033 views 10193 127742943164096 Password reset request for email: miss2024code@gmail.com
+INFO 2026-03-02 00:54:25,157 views 10193 127742943164096 Generated temporary password for user 16
+INFO 2026-03-02 00:54:25,160 views 10193 127742943164096 Attempt 1/2 to send reset email to miss2024code@gmail.com
+INFO 2026-03-02 00:54:31,332 views 10193 127742943164096 Password reset email sent successfully to miss2024code@gmail.com
+INFO 2026-03-02 00:54:32,430 views 10193 127742943164096 Password updated for user 16
+INFO 2026-03-26 14:24:33,681 views 6607 124737392998080 Password reset request for email: yusra937shaikh@gmail.com
+INFO 2026-03-26 14:24:33,758 views 6607 124737392998080 Generated temporary password for user 17
+INFO 2026-03-26 14:24:33,759 views 6607 124737392998080 Attempt 1/2 to send reset email to yusra937shaikh@gmail.com
+INFO 2026-03-26 14:24:44,517 views 6607 124737392998080 Password reset email sent successfully to yusra937shaikh@gmail.com
+INFO 2026-03-26 14:24:45,122 views 6607 124737392998080 Password updated for user 17
+INFO 2026-03-26 20:39:27,554 views 21876 132305653851840 Password reset request for email: misbah545shaikh@gmail.com
+INFO 2026-03-26 20:39:28,589 views 21876 132305653851840 Generated temporary password for user 1
+INFO 2026-03-26 20:39:28,596 views 21876 132305653851840 Attempt 1/2 to send reset email to misbah545shaikh@gmail.com
+INFO 2026-03-26 20:39:34,925 views 21876 132305653851840 Password reset email sent successfully to misbah545shaikh@gmail.com
+INFO 2026-03-26 20:39:35,970 views 21876 132305653851840 Password updated for user 1
+INFO 2026-03-27 04:50:25,827 views 4796 128178695689920 Password reset request for email: priyankapanchal2831@gmail.com
+INFO 2026-03-27 04:50:25,944 views 4796 128178695689920 Generated temporary password for user 43
+INFO 2026-03-27 04:50:25,947 views 4796 128178695689920 Attempt 1/2 to send reset email to priyankapanchal2831@gmail.com
+INFO 2026-03-27 04:50:34,456 views 4796 128178695689920 Password reset email sent successfully to priyankapanchal2831@gmail.com
+INFO 2026-03-27 04:50:35,081 views 4796 128178695689920 Password updated for user 43
