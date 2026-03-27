@@ -1,0 +1,84 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+Not Found: /api/accounts/login/
+[19/Feb/2026 20:20:16] "POST /api/accounts/login/ HTTP/1.1" 404 3931
+[19/Feb/2026 20:20:32] "POST /api/login/ HTTP/1.1" 200 489
+[19/Feb/2026 20:21:05] "POST /api/login/ HTTP/1.1" 200 489
+Not Found: /api/chatbot/api/auth/send-otp/
+[19/Feb/2026 20:21:05] "POST /api/chatbot/api/auth/send-otp/ HTTP/1.1" 404 26
+[19/Feb/2026 20:21:05] "POST /api/chatbot/api/ai/estimate-price/ HTTP/1.1" 200 160
+[19/Feb/2026 20:21:06] "POST /api/chatbot/api/qr/generate/ HTTP/1.1" 200 446
+Internal Server Error: /api/chatbot/api/invoice/generate/
+Traceback (most recent call last):
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/services/advanced_views.py", line 279, in generate_invoice
+    total = round(subtotal - discount + tax, 2)
+                  ~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'decimal.Decimal' and 'float'
+[19/Feb/2026 20:21:06] "POST /api/chatbot/api/invoice/generate/ HTTP/1.1" 500 106184
+[19/Feb/2026 20:21:06] "POST /api/chatbot/api/loyalty/add-points/ HTTP/1.1" 200 78
+[19/Feb/2026 20:21:06] "GET /api/chatbot/api/ai/predict-workload/ HTTP/1.1" 200 785
+[19/Feb/2026 20:21:38] "POST /api/login/ HTTP/1.1" 200 489
+Not Found: /api/chatbot/api/auth/send-otp/
+[19/Feb/2026 20:21:38] "POST /api/chatbot/api/auth/send-otp/ HTTP/1.1" 404 26
+[19/Feb/2026 20:21:38] "POST /api/chatbot/api/ai/estimate-price/ HTTP/1.1" 200 160
+[19/Feb/2026 20:21:38] "POST /api/chatbot/api/qr/generate/ HTTP/1.1" 200 446
+Internal Server Error: /api/chatbot/api/invoice/generate/
+Traceback (most recent call last):
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/venv/lib/python3.12/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/root123/SmartLaundry/services/advanced_views.py", line 279, in generate_invoice
+    total = round(subtotal - discount + tax, 2)
+                  ~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'decimal.Decimal' and 'float'
+[19/Feb/2026 20:21:38] "POST /api/chatbot/api/invoice/generate/ HTTP/1.1" 500 106184
+[19/Feb/2026 20:21:38] "POST /api/chatbot/api/loyalty/add-points/ HTTP/1.1" 200 78
+[19/Feb/2026 20:21:38] "GET /api/chatbot/api/ai/predict-workload/ HTTP/1.1" 200 785
+[19/Feb/2026 20:21:38] "GET /api/chatbot/api/inventory/check/ HTTP/1.1" 200 58
